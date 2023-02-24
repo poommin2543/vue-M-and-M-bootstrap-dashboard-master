@@ -1,6 +1,6 @@
 <template>
-  <div class="wrapper">
-    <side-bar>
+  <!-- <div class="wrapper"> -->
+    <!-- <side-bar>
       <mobile-menu slot="content"></mobile-menu>
       <sidebar-link to="/admin/overview">
         <i class="nc-icon nc-chart-pie-35"></i>
@@ -38,7 +38,7 @@
           <p>Upgrade to PRO</p>
         </sidebar-link>
       </template>
-    </side-bar>
+    </side-bar> -->
     <div class="main-panel">
       <top-navbar></top-navbar>
 
@@ -46,9 +46,9 @@
 
       </dashboard-content>
 
-      <content-footer></content-footer>
+      <!-- <content-footer></content-footer> -->
     </div>
-  </div>
+  <!-- </div> -->
 </template>
 <style lang="scss">
 
