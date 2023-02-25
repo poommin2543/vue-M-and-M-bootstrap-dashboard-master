@@ -386,7 +386,7 @@ export default {
             this.receiveNews = this.receiveNews.concat(message)
             // console.log(`Received message ${message} from topic ${topic}`)
             console.log(`Received message ${message}`)
-            this.text = message
+            this.text = "update"
             this.settext(message)
 
             // this.text = "OFF"
@@ -499,19 +499,19 @@ export default {
 </script>
 <style>
 .colorm1 {
-  color: rgb(0, 162, 255);
-}
-
-.colorm2 {
   color: rgb(255, 0, 0);
 }
 
+.colorm2 {
+  color: rgb(34, 0, 255);
+}
+
 .colorm3 {
-  color: rgb(248, 223, 0);
+  color: rgb(137, 134, 132);
 }
 
 .colorm4 {
-  color: rgb(95, 24, 228);
+  color: rgb(228, 214, 24);
 }
 
 .colorm5 {
@@ -519,5 +519,5 @@ export default {
 }
 
 .colorm6 {
-  color: rgb(19, 2, 250);
+  color: rgb(0, 0, 0);
 }</style>
